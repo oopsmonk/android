@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="github"
+           fetch="https://github.com/oopsmonk/" />
   <remote  name="aosp"
            fetch=".." />
   <default revision="refs/tags/android-4.1.1_r4"
@@ -304,4 +305,5 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
+  <project path="device/allwinner/mk802" name="oopsmonk / android_device_allwinner_mk802" remote="github" revision="master"/>
 </manifest>
